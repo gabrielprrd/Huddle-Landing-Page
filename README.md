@@ -16,7 +16,7 @@ For the "slide in" as the user scrolls down, I'm using a simple javascript libra
 
 ## Potential security vulnerabilities
 
-This message shows because I'm using gulp @3.9.1 instead of @4.0.0 simply because it's easier to learn and have more information all over the web.
+This message shows because I'm using gulp @3.9.1 instead of @4.0.0 simply because it's easier to learn and there is way more information all over the web.
 
 ## Next steps
 - "Thank you" message when user subscribes
