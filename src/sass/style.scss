@@ -1,0 +1,7 @@
+// Here goes all the imports
+
+@import 'utilities'; //resets, variables, mixins, and some utility CSS classes
+@import 'component'; //buttons, navbars, cards, anything that is reusable
+@import 'layout'; //overall layout of the web page such as container and grid systems.
+@import 'mobile'; //media queries for responsiveness
+@import 'animations';

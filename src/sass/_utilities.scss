@@ -1,0 +1,42 @@
+// Reset
+html {
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+
+    *, *::before, *::after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
+// font-family: 'Poppins', sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+// font-family: 'Open Sans', sans-serif;
+
+
+// Variables
+$primary: hsl(322, 100%, 66%);
+$secondary: hsl(265, 100%, 66%);
+$light-grayish-blue: hsl(214, 64%, 98%);
+$mid-grayish-blue: hsl(208, 11%, 55%);
+$very-dark-cyan: hsl(192, 100%, 9%);
+$footer-blue: hsl(228, 45%, 44%);
+$pink-light: hsla(322, 100%, 66%, 0.8);
+$margin-footer: 15px;
+
+
+//Mixin for responsiveness
+@mixin phone {
+    @media only screen and (max-width: 800px) {
+        @content;
+    }
+}
