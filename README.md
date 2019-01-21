@@ -14,10 +14,6 @@ Also I'm using Gulp for some simple tasks like autoprefixing css, minifying imag
 
 For the "slide in" as the user scrolls down, I'm using a simple javascript library called Hello ScrollOut, which is very simple way faster than code it from scratch.
 
-## Potential security vulnerabilities
-
-This message shows because I'm using gulp @3.9.1 instead of @4.0.0 simply because it's easier to learn and there is way more information all over the web.
-
 ## Next steps
 - "Thank you" message when user subscribes
 - Fix the mobile overflow issue
